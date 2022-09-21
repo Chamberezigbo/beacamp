@@ -1,0 +1,49 @@
+body {
+	background-color: #f6f7fb;
+}
+.landingSection h1 {
+	font-weight: bolder;
+	font-size: 55px;
+}
+.landingSection p {
+	font-weight: lighter;
+}
+.customColor {
+	background-color: #f6f7fb;
+}
+
+.buttonColor {
+	background-color: #010068;
+	border: #010068 1px solid;
+}
+
+.experience {
+	background-color: white;
+}
+.profileImage p {
+	margin-top: 15px;
+	font-size: 12px;
+}
+.profileImage p span {
+	font-size: 10px;
+	font-weight: lighter;
+}
+.h-custom {
+	padding: 90px;
+}
+/* My media query section */
+
+@media only screen and (max-width: 600px) {
+	.landingSection h1 {
+		font-size: 20px;
+	}
+	.profileImage p {
+		margin-top: 15px;
+	}
+	.h-custom {
+		padding: 5px;
+	}
+	.profileImage {
+		padding-left: 25%;
+	}
+}
