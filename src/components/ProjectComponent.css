@@ -1,0 +1,24 @@
+.webStyle{
+     background-color: #ECE8FC;
+
+}
+
+.cloudStyle {
+     background-color: #FFF6E6;
+}
+
+.mobileStyle {
+     background-color: #F6F9F7;
+}
+
+footer {
+     border-top: 1px solid black;
+     border-bottom: 1px solid black;
+     border-radius: 11px;
+     margin: 0px;
+     padding: 10px;
+     height: 15vh;
+}
+ footer a {
+     text-decoration: none;
+ }

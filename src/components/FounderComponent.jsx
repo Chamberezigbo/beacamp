@@ -31,6 +31,9 @@ export default function FounderComponent() {
 						</Row>
 					</Card.Body>
 				</Card>
+				<h1 className="text-center text-capitalize mt-5 centered-h1">
+					find project
+				</h1>
 			</Container>
 		</div>
 	);
