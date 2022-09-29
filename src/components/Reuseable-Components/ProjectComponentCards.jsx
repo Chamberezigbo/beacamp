@@ -15,15 +15,17 @@ export default function ProjectComponentCards() {
 						make up the bulk of the card's content.
 					</Card.Text>
 					<Card.Link href="#">
-						<span class="badge bg-light text-danger p-2">Java</span>
+						<span className="badge bg-light text-danger p-2">
+							Java
+						</span>
 					</Card.Link>
 					<Card.Link href="#">
-						<span class="badge bg-light text-danger p-2">
+						<span className="badge bg-light text-danger p-2">
 							Node.js
 						</span>
 					</Card.Link>
 					<Card.Link href="#">
-						<span class="badge bg-light text-danger p-2">
+						<span className="badge bg-light text-danger p-2">
 							Python
 						</span>
 					</Card.Link>

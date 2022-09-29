@@ -1,25 +1,31 @@
-import sideImage from "../assets/4653742 1.svg";
-import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import "./Reuseable-Components/SideCardComponents";
+import { Row, Col, Container } from "react-bootstrap";
+import SideCardComponents from "./Reuseable-Components/SideCardComponents";
+import SideTextComponents from "./Reuseable-Components/SideTextComponents";
 
-export default function ExperienceComponent() {
+export default function ExperienceComponent({
+	title,
+	subTitle,
+	image,
+	footerTitle,
+	icons,
+}) {
 	return (
-		<div className="experience mt-5 pb-5">
-			<Container className="pt-5">
+		<Container fluid className="spacing">
+			<div className="pt-5 mt-5">
 				<Row>
 					<Col sm={6} className="ms-lg-auto">
-						<Image src={sideImage} thumbnail width={370} />
+						<SideCardComponents
+							image={image}
+							footerTitle={footerTitle}
+							icons={icons}
+						/>
 					</Col>
-					<Col sm={6} className="pt-5">
-						<h1>Get hands-on experience with usable projects</h1>
-						<p className="pt-4 subtitle">
-							Become fit for paid work through learn by building
-							model. practice,improve and apply skill through
-							full-featured technical projects with the help of
-							and mentors and peers.
-						</p>
+					<Col sm={5} className="pt-5">
+						<SideTextComponents title={title} subTitle={subTitle} />
 					</Col>
 				</Row>
-			</Container>
-		</div>
+			</div>
+		</Container>
 	);
 }

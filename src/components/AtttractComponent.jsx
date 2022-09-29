@@ -1,26 +1,33 @@
 import React from "react";
-import sideImage from "../assets/4653742 1.svg";
-import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
-export default function AttractComponent() {
+import "./Reuseable-Components/SideCardComponents";
+import SideCardComponents from "./Reuseable-Components/SideCardComponents";
+import SideTextComponents from "./Reuseable-Components/SideTextComponents";
+
+export default function AttractComponent({
+	title,
+	subTitle,
+	image,
+	footerTitle,
+	icons,
+	bg,
+}) {
 	return (
-		<div className="experience pb-5">
-			<Container className="pt-5">
-				<Row>
-					<Col sm={4} className="me-lg-auto">
-						<Image src={sideImage} thumbnail width={370} />
-					</Col>
-					<Col sm={6} className="pt-5">
-						<h1>Attract the job you desire, 3x your salary</h1>
-						<p className="pt-4 subtitle">
-							Become fit for paid work through learn by building
-							model. practice,improve and apply skill through
-							full-featured technical projects with the help of
-							and mentors and peers.
-						</p>
-					</Col>
-				</Row>
-			</Container>
-		</div>
+		<Container fluid className="spacing">
+			<Row>
+				<Col sm={6} className="ms-lg-auto">
+					<SideCardComponents
+						image={image}
+						footerTitle={footerTitle}
+						icons={icons}
+						bg={bg}
+					/>
+				</Col>
+				<Col sm={5} className="pt-5">
+					<SideTextComponents title={title} subTitle={subTitle} />
+				</Col>
+			</Row>
+		</Container>
 	);
 }

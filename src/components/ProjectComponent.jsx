@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import ProjectComponentCards from "./ProjectComponentCards";
+import ProjectComponentCards from "./Reuseable-Components/ProjectComponentCards";
 import "./ProjectComponent.css";
 
 export default function WebComponent({ title, color }) {

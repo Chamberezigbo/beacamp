@@ -1,0 +1,88 @@
+.landingSection {
+     background-color: #F6F7FB;
+     min-height: 122vh;
+     width: 100%;
+}
+.landingSection p {
+	font-size: 16px;
+     font-weight: normal;
+     font-stretch: normal;
+     font-style: normal;
+     line-height: 1.63;
+     letter-spacing: normal;
+     text-align: left;
+     width: 556px;
+     height: 78px;
+     flex-grow: 0;
+     color: #515765;
+
+}
+.buttonColorMain{
+     width: 384px;
+     min-height: 56px;
+     flex-grow: 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     padding: 10px 24px;
+     border-radius: 6px;
+     background-color: #010068;
+}
+.customColor {
+	background-color: #f6f7fb;
+}
+.parent {
+     background: linear-gradient(rgba(0.0, 0.0, 0.0, 0.0), rgba(0.0, 0.0, 0.0, 0.0)), 
+     url("../../assets/Illustration@3x.png");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: contain;
+     height: 77vh;
+     position: relative;
+     border-radius: 10px;
+     width: auto;
+}
+.pt-6 {
+     padding-top: 90px;
+}
+.image1 {
+     position: absolute;
+     top: 198px;
+     left: 190px;
+}
+
+.image2{
+     position: absolute;
+     top: 400px;
+     right: 330px;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.landingSection h1 {
+		font-size: 22px;
+	}
+     .landingSection p {
+          font-size: 11px;
+          font-weight: normal;
+          width: auto; 
+     }
+     .parent{
+          margin-top: -30px;
+     }
+     .buttonColorMain{
+          width: auto;
+     }
+     .image1 {
+          position: absolute;
+          top: 198px;
+          left: 100px;
+          width: 200px;
+          
+     }
+     .image2 {
+          display: none;
+     }
+}

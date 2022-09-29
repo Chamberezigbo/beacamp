@@ -3,18 +3,13 @@ import logo from "../../assets/PUDIO LOGO10.png";
 
 export default function NavbarComponent() {
 	return (
-		<>
-			<Navbar
-				className="border-bottom"
-				bg="light"
-				expand="lg"
-				sticky="top"
-			>
+		<Container fluid className="nav-bg border-bottom">
+			<Navbar bg="light" expand="lg" sticky="top">
 				<Container>
 					<Navbar.Brand href="#home">
 						<img
 							src={logo}
-							height="40"
+							height="24.7"
 							className="d-inline-block align-top"
 							alt="React Bootstrap logo"
 						/>
@@ -27,13 +22,13 @@ export default function NavbarComponent() {
 							<Nav.Link href="#link">Mentors</Nav.Link>
 						</Nav>
 						<Nav className="ms-auto">
-							<Button className="buttonColor" size="md">
+							<Button className="buttonColor" size="lg">
 								Early Access
 							</Button>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>
 			</Navbar>
-		</>
+		</Container>
 	);
 }
