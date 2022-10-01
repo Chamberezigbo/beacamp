@@ -14,9 +14,9 @@ export default function AttractComponent({
 	bg,
 }) {
 	return (
-		<Container fluid className="spacing">
+		<Container className="spacing">
 			<Row>
-				<Col sm={6} className="ms-lg-auto">
+				<Col sm={12} lg={7} md={12} className="ms-lg-auto">
 					<SideCardComponents
 						image={image}
 						footerTitle={footerTitle}
@@ -24,7 +24,7 @@ export default function AttractComponent({
 						bg={bg}
 					/>
 				</Col>
-				<Col sm={5} className="pt-5">
+				<Col sm={12} lg={5} md={12} className="pt-5">
 					<SideTextComponents title={title} subTitle={subTitle} />
 				</Col>
 			</Row>

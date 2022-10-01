@@ -1,7 +1,16 @@
 .landingSection {
      background-color: #F6F7FB;
-     min-height: 122vh;
+     height: 122vh;
      width: 100%;
+}
+.centered-h1 {
+     font-size: 57.2px;
+     font-weight: 900;
+     font-stretch: normal;
+     font-style: normal;
+     line-height: 1.14;
+     letter-spacing: normal;
+     text-align: left;
 }
 .landingSection p {
 	font-size: 16px;
@@ -18,16 +27,6 @@
 
 }
 .buttonColorMain{
-     width: 384px;
-     min-height: 56px;
-     flex-grow: 0;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     gap: 10px;
-     padding: 10px 24px;
-     border-radius: 6px;
      background-color: #010068;
 }
 .customColor {
@@ -49,40 +48,44 @@
 }
 .image1 {
      position: absolute;
-     top: 198px;
-     left: 190px;
+     top: 40%;
+     left: 40%;
 }
 
 .image2{
      position: absolute;
-     top: 400px;
+     top: 80%;
      right: 330px;
 }
 
 
-@media only screen and (max-width: 600px) {
-	.landingSection h1 {
-		font-size: 22px;
+/* from this screen down */
+@media only screen and (max-width: 768px) {
+     .centered-h1{
+          font-size: 22px;
 	}
      .landingSection p {
           font-size: 11px;
           font-weight: normal;
           width: auto; 
      }
-     .parent{
-          margin-top: -30px;
+     .landingSection {
+          height: auto;
      }
-     .buttonColorMain{
-          width: auto;
+     .parent {
+          display: none;
+     }
+}
+
+/* On screens that are 1024px wide or less, */
+@media screen and (max-width: 1024px) {
+     .landingSection {
+          height: auto;
+     }
+     .image2{
+          display: none;
      }
      .image1 {
-          position: absolute;
-          top: 198px;
-          left: 100px;
-          width: 200px;
-          
-     }
-     .image2 {
-          display: none;
+          left: 10%;
      }
 }

@@ -1,7 +1,4 @@
 /* this styles are for the general styles */
-.experience {
-	background-color: white;
-}
 .nav-bg{
      background-color: #F8F9FA !important;
 }
@@ -15,15 +12,6 @@
 }
 .h-custom {
 	padding: 90px;
-}
-.centered-h1 {
-     font-size: 57.2px;
-     font-weight: 900;
-     font-stretch: normal;
-     font-style: normal;
-     line-height: 1.14;
-     letter-spacing: normal;
-     text-align: left;
 }
 .buttonColor {
 	background-color: #010068;
@@ -40,7 +28,7 @@
 }
 /* My media query section */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 	.profileImage p {
 		margin-top: 15px;
 	}

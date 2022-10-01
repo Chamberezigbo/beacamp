@@ -11,21 +11,21 @@ export default function ExperienceComponent({
 	icons,
 }) {
 	return (
-		<Container fluid className="spacing">
-			<div className="pt-5 mt-5">
+		<div className="pt-5 mt-5">
+			<Container className="spacing">
 				<Row>
-					<Col sm={6} className="ms-lg-auto">
+					<Col sm={12} lg={6} md={12} className="ms-lg-auto">
 						<SideCardComponents
 							image={image}
 							footerTitle={footerTitle}
 							icons={icons}
 						/>
 					</Col>
-					<Col sm={5} className="pt-5">
+					<Col sm={12} lg={6} md={12} className="pt-5">
 						<SideTextComponents title={title} subTitle={subTitle} />
 					</Col>
 				</Row>
-			</div>
-		</Container>
+			</Container>
+		</div>
 	);
 }

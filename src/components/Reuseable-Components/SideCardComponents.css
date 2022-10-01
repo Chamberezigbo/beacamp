@@ -89,10 +89,11 @@
 
 .side-text {
      padding-top: 30px;
+     padding-left: 40px;
 }
 
 .side-text h1 {
-     font-size: 56px;
+     font-size: 50px;
      font-weight: 600;
      font-stretch: normal;
      font-style: normal;
@@ -124,7 +125,7 @@
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
      
      .card-bg{
           width: auto;
@@ -169,6 +170,7 @@
      }
      .side-text {
           padding-top: 0px;
+          padding-left: 10px;
      }
      .side-text h1 {
           font-size: 20px;
