@@ -13,9 +13,18 @@
 .h-custom {
 	padding: 90px;
 }
+.cardText h2{
+     font-size: 37px;
+     line-height: 1.3;
+     letter-spacing: 0.52px;
+}
 .buttonColor {
 	background-color: #010068;
 	border: #010068 1px solid;
+     padding: 10px 24px;
+     border-radius: 6px;
+     background-color: #010068;
+     width: 268px;
 }
 .customRounded{
      border-radius: 100px;
@@ -26,8 +35,121 @@
      width: 100%;
      height: auto;
 }
-/* My media query section */
 
+.ellipse-6 {
+     background-image: url(./assets/pexels-lucien-haba-5701925.jpg);
+     width: 120px;
+     height: 120px;
+     -webkit-border-radius: 60px;
+     -webkit-background-clip: padding-box;
+     -moz-border-radius: 60px;
+     -moz-background-clip: padding;
+     border-radius: 60px;
+     background-clip: padding-box;
+     margin: 0 93px 10px 0;
+     background-size: cover;
+     background-position: center center;
+}
+.ellipse-8 {
+     background-image: url(./assets/dev1.jpg);
+     width: 96px;
+     height: 96px;
+     -webkit-border-radius: 60px;
+     -webkit-background-clip: padding-box;
+     -moz-border-radius: 60px;
+     -moz-background-clip: padding;
+     border-radius: 60px;
+     background-clip: padding-box;
+     margin: 15px 75px 14px 320px;
+     background-size: cover;
+     background-position: center center;
+}
+.ellipse-9{
+     background-image: url(./assets/dev3.jpg);
+     width: 91px;
+     height: 91px;
+     -webkit-border-radius: 60px;
+     -webkit-background-clip: padding-box;
+     -moz-border-radius: 60px;
+     -moz-background-clip: padding;
+     border-radius: 60px;
+     background-clip: padding-box;
+     margin: 0 26px 5px 150px;
+     background-size: cover;
+     background-position: center center;
+}
+.ellipse-13{
+     background-image: url(./assets/dev2.jpg);
+     width: 119px;
+     height: 119px;
+     -webkit-border-radius: 60px;
+     -webkit-background-clip: padding-box;
+     -moz-border-radius: 60px;
+     -moz-background-clip: padding;
+     border-radius: 60px;
+     background-clip: padding-box;
+     margin: -80px 6px 1px 735px;
+     background-size: cover;
+     background-position: center center;
+}
+.ellipse-10{
+     background-image: url(./assets/dev.jpg);
+     width: 126px;
+     height: 126px;
+     -webkit-border-radius: 60px;
+     -webkit-background-clip: padding-box;
+     -moz-border-radius: 60px;
+     -moz-background-clip: padding;
+     border-radius: 60px;
+     background-clip: padding-box;
+     margin: 3px 8px 5px 310px;
+     background-size: cover;
+     background-position: center center;
+}
+.ellipse-11{
+     background-image: url(./assets/ellipse-11.jpg);
+     width: 126px;
+     height: 126px;
+     -webkit-border-radius: 60px;
+     -webkit-background-clip: padding-box;
+     -moz-border-radius: 60px;
+     -moz-background-clip: padding;
+     border-radius: 60px;
+     background-clip: padding-box;
+     margin: 3px 8px 5px 210px;
+     background-size: cover;
+     background-position: center center;
+}
+.ellipse-7{
+     background-image: url(./assets/ellipse-7.jpg);
+     width: 160px;
+     height: 160px;
+     -webkit-border-radius: 60px;
+     -webkit-background-clip: padding-box;
+     -moz-border-radius: 60px;
+     -moz-background-clip: padding;
+     border-radius: 60px;
+     background-clip: padding-box;
+     margin: 10px 51px 5px 0;
+     background-size: cover;
+     background-position: center center;
+}
+.ellipse-12{
+     background-image: url(./assets/ellipse-12.jpg);
+     width: 153px;
+     height: 153px;
+     -webkit-border-radius: 60px;
+     -webkit-background-clip: padding-box;
+     -moz-border-radius: 60px;
+     -moz-background-clip: padding;
+     border-radius: 60px;
+     background-clip: padding-box;
+     margin: 10px 0 5px 777px;
+     background-size: cover;
+     background-position: center center;
+}
+
+/* My media query section */
 @media only screen and (max-width: 768px) {
 	.profileImage p {
 		margin-top: 15px;
@@ -39,6 +161,14 @@
 		padding-left: 25%;
 	}
      .hide-sm {
+          display: none;
+     }
+     .cardText h2{
+          font-size: 15px;
+          line-height: 1.3;
+          letter-spacing: 0.52px;
+     }
+     .d-none-sm {
           display: none;
      }
 }

@@ -7,7 +7,9 @@ export default function WebComponent({ title, color }) {
 	return (
 		<section className={color}>
 			<Container className="pt-5">
-				<h1 className="text-capitalize mb-5">{title}</h1>
+				<h1 className="development-Projects text-capitalize mb-5">
+					{title}
+				</h1>
 				<Row>
 					<Col lg={4}>
 						<ProjectComponentCards />

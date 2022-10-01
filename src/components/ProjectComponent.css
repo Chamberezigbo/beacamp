@@ -10,15 +10,56 @@
 .mobileStyle {
      background-color: #F6F9F7;
 }
+.development-Projects {
+     font-size: 40px;
+     font-weight: bold;
+     line-height: 1.3;
+     letter-spacing: 0.52px;
+     color: #222938;
+}
+
+.project-card {
+     border-radius: 20px;
+     border: solid 1px #010068;
+
+}
+.building-an-auto-respond-bot {
+     font-size: 24px;
+     font-weight: bold;
+     line-height: 1.3;
+     letter-spacing: 0.31px;
+     color: #00002c;
+}
 
 footer {
-     border-top: 1px solid black;
-     border-bottom: 1px solid black;
+     border-top: 1px solid #000;
      border-radius: 11px;
      margin: 0px;
      padding: 10px;
      height: 15vh;
 }
- footer a {
+footer p {
+     font-size: 16px;
+     font-weight: normal;
+}
+footer p .Level-Easy {
+     font-weight: bold;
+     color: #000;
+}
+footer p .Level-Easy .text-style-2 {
+     font-weight: 500;
+     color: #222938;
+}
+footer a {
      text-decoration: none;
- }
+}
+footer .Join-Project {
+     font-size: 16px;
+     color: #d33333;
+}
+
+@media only screen and (max-width: 768px) {
+     .development-Projects {
+          font-size: 25px;
+     }
+}

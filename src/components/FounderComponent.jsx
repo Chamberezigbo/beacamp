@@ -1,3 +1,4 @@
+//! Used app.css for the style //
 import React from "react";
 import { Card, Container, Image, Row, Col } from "react-bootstrap";
 import profileImage from "../assets/Trust Headshot pPNG.png";

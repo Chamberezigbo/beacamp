@@ -1,3 +1,4 @@
+// ? using app.css for the style //
 import React from "react";
 import { Card } from "react-bootstrap";
 import { UilUsersAlt, UilArrowRight } from "@iconscout/react-unicons";
@@ -5,9 +6,9 @@ import { UilUsersAlt, UilArrowRight } from "@iconscout/react-unicons";
 export default function ProjectComponentCards() {
 	return (
 		<>
-			<Card className="mb-5">
+			<Card className="mb-5 project-card">
 				<Card.Body>
-					<Card.Title className="h1">
+					<Card.Title className="building-an-auto-respond-bot pt-4">
 						Building an auto <br /> respond bot
 					</Card.Title>
 					<Card.Text className="mt-4 text-muted">
@@ -31,19 +32,23 @@ export default function ProjectComponentCards() {
 					</Card.Link>
 				</Card.Body>
 				<footer className="mt-4 ">
-					<div className="d-flex pb-3">
+					<div className="d-flex pb-3 ps-3">
 						<div>
 							<p>
-								<span className="text-muted">Level:</span>
-								Easy
+								<span className="text-muted Level-Easy">
+									Level:
+								</span>
+								<span className="Level-Easy text-style-2">
+									Easy
+								</span>
 							</p>
 							<p>
 								<UilUsersAlt /> 200 Developers
 							</p>
 						</div>
 						<div className="ms-auto pt-3">
-							<span className="text-danger text-capitalize">
-								<a href="#">
+							<span className="text-capitalize">
+								<a href="#" className="Join-Project">
 									join project <UilArrowRight />
 								</a>
 							</span>

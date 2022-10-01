@@ -1,6 +1,8 @@
+// ? using App.css style //
+
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
-import dev1 from "../assets/dev1.jpg";
+import { Container, Button } from "react-bootstrap";
+import dev1 from "../assets/pexels-lucien-haba-5701925.jpg";
 import dev2 from "../assets/dev2.jpg";
 
 export default function TeamComponent() {
@@ -15,82 +17,28 @@ export default function TeamComponent() {
 					mentoring in <br /> technology such
 					Javascrept,Python,React,SQL and more
 				</p>
-				<div class="d-flex justify-content-center mt-5">
-					<button
-						type="button"
-						class="btn buttonColor btn-primary btn-lg text-light"
-					>
+				<div className="d-flex justify-content-center mt-5">
+					<Button size="lg" className="buttonColor">
 						Get Started
-					</button>
+					</Button>
 				</div>
-				<div className="mt-5">
-					<Row className="hide-sm">
-						<Col xs="6" lg="6">
-							<div className="ms-2">
-								<Image
-									src={dev1}
-									width={110}
-									className="customRounded "
-								/>
-							</div>
-						</Col>
-						<Col xs="6" lg="6">
-							<div>
-								<Image src={dev2} width={110} roundedCircle />
-							</div>
-						</Col>
-					</Row>
-
-					<Row className="mt-5">
-						<Col xs="6" lg="6">
-							<div className="d-flex justify-content-end">
-								<Image
-									src={dev1}
-									width={110}
-									className="customRounded "
-								/>
-							</div>
-						</Col>
-						<Col xs="6" lg="2" className="ms-auto">
-							<div>
-								<Image src={dev2} width={110} roundedCircle />
-							</div>
-						</Col>
-					</Row>
-
-					<Row className="mt-5">
-						<Col xs="6" lg="5">
-							<div className="d-flex justify-content-end">
-								<Image
-									src={dev1}
-									width={110}
-									className="customRounded "
-								/>
-							</div>
-						</Col>
-						<Col xs="6" lg="5" className="ms-auto">
-							<div>
-								<Image src={dev2} width={110} roundedCircle />
-							</div>
-						</Col>
-					</Row>
-
-					<Row className="hide-sm">
-						<Col xs="6" lg="5">
-							<div className="d-flex justify-content-start">
-								<Image
-									src={dev1}
-									width={150}
-									className="customRounded "
-								/>
-							</div>
-						</Col>
-						<Col xs="6" lg="5" className="ms-auto">
-							<div className="d-flex justify-content-end">
-								<Image src={dev2} width={150} roundedCircle />
-							</div>
-						</Col>
-					</Row>
+				<div className="mt-5 d-none-sm">
+					<div className="d-flex">
+						<div className="ellipse-6"></div>
+						<div class="ellipse-8"></div>
+					</div>
+					<div className="d-flex">
+						<div class="ellipse-9"></div>
+						<div class="ellipse-13"></div>
+					</div>
+					<div className="d-flex">
+						<div class="ellipse-10"></div>
+						<div class="ellipse-11"></div>
+					</div>
+					<div className="d-flex">
+						<div class="ellipse-7"></div>
+						<div class="ellipse-12"></div>
+					</div>
 				</div>
 			</Container>
 		</div>

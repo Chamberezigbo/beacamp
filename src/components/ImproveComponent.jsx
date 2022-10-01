@@ -1,4 +1,4 @@
-import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 import "./Reuseable-Components/SideCardComponents";
 import SideCard2Components from "./Reuseable-Components/SideCard2Components";
@@ -28,5 +28,3 @@ export default function ImproveComponent({
 		</Container>
 	);
 }
-
-//! create new SideTextComponents for improveComponent components // 

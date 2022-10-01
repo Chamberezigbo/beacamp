@@ -93,7 +93,7 @@
 }
 
 .side-text h1 {
-     font-size: 50px;
+     font-size: 55px;
      font-weight: 600;
      font-stretch: normal;
      font-style: normal;
@@ -176,8 +176,32 @@
           font-size: 20px;
           font-weight: 600;
      }
+     .side-text p {
+          font-size: 13px;
+     }
      .spacing {
           padding-bottom: 50px;
+     }
+
+}
+
+/* On screens that are 1024px wide or less, */
+@media screen and (max-width: 1024px) {
+     .side-text {
+          padding-top: 0px;
+          padding-left: 10px;
+     }
+     .Vector-16 {
+          height: 20px;
+          margin: 25.4px 30.0px 290.6px -20px;
+     }
+     .Vector-17 {
+          height: 20px;
+          margin: 25.4px 0px 290.6px 15px;
+     }
+
+     .small-screen1 {
+          margin-left: 5px;
      }
 
 }

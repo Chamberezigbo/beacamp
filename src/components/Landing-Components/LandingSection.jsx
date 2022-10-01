@@ -57,21 +57,21 @@ export default function LandingSection() {
 				icons={["bxl-typescript", "bxl-php", "bxl-nodejs", "bxl-react"]}
 				bg={true}
 			/>
-			{/* <FounderComponent /> */}
-			{/* <ProjectComponent
+			<FounderComponent />
+			<ProjectComponent
 				title="web development project"
 				color="webStyle"
-			/> */}
-			{/* <ProjectComponent
+			/>
+			<ProjectComponent
 				title="cloud development project"
 				color="cloudStyle"
-			/> */}
-			{/* <ProjectComponent
+			/>
+			<ProjectComponent
 				title="mobile development project"
 				color="mobileStyle"
-			/> */}
-			{/* <TeamComponent />
-			<FooterComponent /> */}
+			/>
+			<TeamComponent />
+			<FooterComponent />
 		</>
 	);
 }
