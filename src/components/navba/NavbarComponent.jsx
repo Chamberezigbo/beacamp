@@ -22,7 +22,7 @@ export default function NavbarComponent() {
 							<Nav.Link href="#link">Mentors</Nav.Link>
 						</Nav>
 						<Nav className="ms-auto">
-							<Button className="buttonColor" size="lg">
+							<Button className="buttonColor-nav" size="md">
 								Early Access
 							</Button>
 						</Nav>

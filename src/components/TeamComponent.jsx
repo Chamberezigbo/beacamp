@@ -9,7 +9,7 @@ export default function TeamComponent() {
 	return (
 		<div className="mb-5">
 			<Container>
-				<h1 className="text-center text-capitalize mt-5">
+				<h1 className="text-center mt-5">
 					the best way to learn and grow is to build
 				</h1>
 				<p className="text-center mt-2">

@@ -13,6 +13,8 @@ import FooterComponent from "../FooterComponent";
 import codeImage from "../../assets/Code.svg";
 import codeImage2 from "../../assets/Frame 2-2.svg";
 
+// correct navbar button//
+
 export default function LandingSection() {
 	return (
 		<>

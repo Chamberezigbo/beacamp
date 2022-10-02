@@ -21,7 +21,7 @@ export default function FooterComponent() {
 						</div>
 					</Col>
 					<Col lg={2}>
-						<div>
+						<div className="mb-5">
 							<p>Project</p>
 							<p>Javascript Project</p>
 							<p>Python Project</p>
@@ -32,7 +32,7 @@ export default function FooterComponent() {
 						</div>
 					</Col>
 					<Col lg={2}>
-						<div>
+						<div className="mb-5">
 							<p>Product</p>
 							<p>Javascript Product</p>
 							<p>Python Product</p>
@@ -43,7 +43,7 @@ export default function FooterComponent() {
 						</div>
 					</Col>
 					<Col lg={2}>
-						<div>
+						<div className="mb-5">
 							<p>Resources</p>
 							<p>Find members</p>
 							<p>Find Mentors</p>
