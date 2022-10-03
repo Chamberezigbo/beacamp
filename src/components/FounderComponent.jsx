@@ -4,7 +4,7 @@ import { Card, Container, Image, Row, Col } from "react-bootstrap";
 import profileImage from "../assets/Trust Headshot pPNG.png";
 export default function FounderComponent() {
 	return (
-		<div className="experience">
+		<>
 			<Container className="pt-5 pb-5">
 				<Card className="bg-dark text-white border rounded-3 h-custom p-5">
 					<Card.Body>
@@ -36,6 +36,6 @@ export default function FounderComponent() {
 					find project
 				</h1>
 			</Container>
-		</div>
+		</>
 	);
 }

@@ -1,28 +1,25 @@
 /* style is for side card styles  */
 
 .card-bg {
-     max-width: 600px;
-     height: 440px;
+     height: 460px;
      flex-grow: 0;
-     padding: 0 129px 23px 40.6px;
      border-radius: 20px;
      background-color: #b173f0;
+     overflow: hidden;
 }
 .card-bg1 {
-     max-width: 600px;
-     height: 440px;
+     height: 460px;
      flex-grow: 0;
-     padding: 0 129px 23px 40.6px;
      border-radius: 20px;
      background-color: #010068;
+     overflow: hidden;
 }
 .card-bg2 {
-     max-width: 600px;
-     height: 440px;
+     height: 460px;
      flex-grow: 0;
-     padding: 0 129px 23px 40.6px;
      border-radius: 20px;
      background-color: #b9263f;
+     overflow: hidden;
 }
 
 .spacing {
@@ -33,7 +30,8 @@
 .Vector-16 {
      width: 40.9px;
      height: 43px;
-     margin: 22.4px 46.5px 290.6px 0;
+     margin-top: 15px;
+     margin-left: 10px;
      transform: rotate(-49.47deg);
      border-style: solid;
      border-width: 3.2px;
@@ -41,10 +39,22 @@
      border-image-slice: 1;
 }
 
-.small-screen {
-     margin-left: 11px;
+.Vector-17 {
+  width: 40.9px;
+  height: 43px;
+  transform: rotate(-49.47deg);
+  border-style: solid;
+  border-width: 3.2px;
+  border-image-source: linear-gradient(91deg, #ccabd4 6%, #010068 134%);
+  border-image-slice: 1;
 }
 
+.small-screen {
+     margin-left: 20px;
+}
+.small-screen1 {
+     margin-left: 70px;     
+}
 .Frame-29 {
      width: 340px;
      height: 34px;
@@ -107,21 +117,6 @@
      letter-spacing: 0.21px;
 }
 
-.Vector-17 {
-  width: 40.9px;
-  height: 43px;
-  margin: 25px 0 288px 52px;
-  transform: rotate(-49.47deg);
-  border-style: solid;
-  border-width: 3.2px;
-  border-image-source: linear-gradient(91deg, #ccabd4 6%, #010068 134%);
-  border-image-slice: 1;
-}
-
-.small-screen1 {
-     margin-left: 60px;
-}
-
 
 
 
@@ -129,33 +124,28 @@
 @media only screen and (max-width: 768px) {
      
      .card-bg{
-          width: auto;
-          height: 300px;
+          height: 320px;
      }
      .card-bg1{
-          width: auto;
-          height: 300px;
+          height: 320px;
      }
      .card-bg2{
-          width: auto;
-          height: 300px;
+          height: 320px;
      }
      .card-image {
           width: 220px;
      }
      .Vector-16 {
           height: 20px;
-          margin: 25.4px 30.0px 290.6px -20px;
      }
      .Vector-17 {
           height: 20px;
-          margin: 25.4px 0px 290.6px 0px;
      }
      .small-screen {
-          margin-left: 10px;
+          margin-left: 0px;
      }
      .small-screen1 {
-          margin-left: 10px;
+          margin-left: 45px !important;
      }
      .Frame-29 { 
           width: 218px;
@@ -194,11 +184,9 @@
      }
      .Vector-16 {
           height: 20px;
-          margin: 25.4px 30.0px 290.6px -20px;
      }
      .Vector-17 {
           height: 20px;
-          margin: 25.4px 0px 290.6px 15px;
      }
 
      .small-screen1 {

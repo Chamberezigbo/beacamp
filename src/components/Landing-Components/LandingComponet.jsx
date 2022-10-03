@@ -21,7 +21,7 @@ export default function LandingComponent() {
 							full-featured technical projects with the help of
 							and mentors and peers.
 						</p>
-						<div className="mt-5 d-grid w-50">
+						<div className="mt-5 d-grid w-50 btn-sm">
 							<Button className="buttonColorMain" size="lg">
 								Start Building Project
 							</Button>

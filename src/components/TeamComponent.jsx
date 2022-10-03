@@ -25,19 +25,19 @@ export default function TeamComponent() {
 				<div className="mt-5 d-none-sm">
 					<div className="d-flex">
 						<div className="ellipse-6"></div>
-						<div class="ellipse-8"></div>
+						<div className="ellipse-8"></div>
 					</div>
 					<div className="d-flex">
-						<div class="ellipse-9"></div>
-						<div class="ellipse-13"></div>
+						<div className="ellipse-9"></div>
+						<div className="ellipse-13"></div>
 					</div>
 					<div className="d-flex">
-						<div class="ellipse-10"></div>
-						<div class="ellipse-11"></div>
+						<div className="ellipse-10"></div>
+						<div className="ellipse-11"></div>
 					</div>
 					<div className="d-flex">
-						<div class="ellipse-7"></div>
-						<div class="ellipse-12"></div>
+						<div className="ellipse-7"></div>
+						<div className="ellipse-12"></div>
 					</div>
 				</div>
 			</Container>

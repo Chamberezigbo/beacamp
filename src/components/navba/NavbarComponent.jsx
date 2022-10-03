@@ -1,3 +1,4 @@
+// ? app.css as the style //
 import { Container, Navbar, Nav, Button } from "react-bootstrap";
 import logo from "../../assets/PUDIO LOGO10.png";
 
